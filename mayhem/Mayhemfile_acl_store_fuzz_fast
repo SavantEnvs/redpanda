@@ -1,0 +1,8 @@
+project: savantenvs/redpanda
+target: acl_store_fuzz_fast
+cmds:
+  - cmd: /mayhem/acl_store_fuzz
+    libfuzzer: true
+    timeout: 30
+    env:
+      ACL_DIAG_FASTEXIT: '1'

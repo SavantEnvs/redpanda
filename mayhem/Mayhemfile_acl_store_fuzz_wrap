@@ -1,0 +1,6 @@
+project: savantenvs/redpanda
+target: acl_store_fuzz_wrap
+cmds:
+  - cmd: /mayhem/mayhem/diag_wrap.sh
+    libfuzzer: true
+    timeout: 30

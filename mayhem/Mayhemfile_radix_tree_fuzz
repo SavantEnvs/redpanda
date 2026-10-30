@@ -1,0 +1,6 @@
+project: savantenvs/redpanda
+target: radix_tree_fuzz
+cmds:
+  - cmd: /mayhem/radix_tree_fuzz
+    libfuzzer: true
+    timeout: 30

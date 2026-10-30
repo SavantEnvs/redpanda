@@ -1,0 +1,6 @@
+project: savantenvs/redpanda
+target: iobuf_fuzz
+cmds:
+  - cmd: /mayhem/iobuf_fuzz
+    libfuzzer: true
+    timeout: 30
