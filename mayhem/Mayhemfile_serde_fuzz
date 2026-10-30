@@ -1,0 +1,6 @@
+project: savantenvs/redpanda
+target: serde_fuzz
+cmds:
+  - cmd: /mayhem/serde_fuzz
+    libfuzzer: true
+    timeout: 30
